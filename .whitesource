@@ -8,7 +8,7 @@
     "checkRunSettings": {
       "displayMode": "baseline",
       "vulnerableCheckRunConclusionLevel": "failure",
-      "useMendCheckNames": true,
+      "useMendCheckNames": true
     },
     "issueSettings": {
       "minSeverityLevel": "LOW",
