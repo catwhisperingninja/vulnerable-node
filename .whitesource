@@ -1,0 +1,25 @@
+{
+    "scanSettings": {
+      "configMode": "AUTO",
+      "configExternalURL": "",
+      "projectToken": "155efad8beac4a1f9b7b23383b2e1f9702709927df5645c9a3bcbeaf3625b968",
+      "baseBranches": []
+    },
+    "checkRunSettings": {
+      "displayMode": "baseline",
+      "vulnerableCheckRunConclusionLevel": "failure",
+      "useMendCheckNames": true,
+    },
+    "issueSettings": {
+      "minSeverityLevel": "LOW",
+      "issueType: "DEPENDENCY"
+    },
+    "remediateSettings": {
+        "extends": ["github>whitesource/merge-confidence:beta","config:base"],
+        "workflowRules": {
+          "enabled": true,
+          "minVulnerabilitySeverity": "LOW"
+        }
+      }
+    }
+  }
